@@ -1,0 +1,9 @@
+[package]
+name = "httpbisbit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "*"
+clap = { version = "*", features = ["derive"] }
+tokio = { version = "*", features = ["full"] }
