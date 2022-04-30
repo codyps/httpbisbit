@@ -7,3 +7,5 @@ edition = "2021"
 hex = "*"
 clap = { version = "*", features = ["derive"] }
 tokio = { version = "*", features = ["full"] }
+num_enum = "*"
+enumset = "*"
